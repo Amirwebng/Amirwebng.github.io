@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <!--۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹-->
+    <!--  Header  -->
+    <header class="header">
+        <div class="header__inner" id="header__inner"><!--visible-->
+            <a class="header__logo" href="#">Foodie<span>land</span></a>
+
+            <nav class="header__nav" id="header__nav" aria-label="Main navigation"><!--visible-->
+
+                <ul class="header__menu">
+                    <li class="active">
+                        <i class="ri-home-4-line" aria-hidden="true"></i>
+                        <a href="/">Home</a>
+                    </li>
+
+                    <li>
+                        <i class="ri-file-list-line" aria-hidden="true"></i>
+                        <a href="#recipes">Recipes</a>
+                    </li>
+
+                    <li>
+                        <i class="ri-book-open-line" aria-hidden="true"></i>
+                        <a href="#blog">Blog</a>
+                    </li>
+
+                    <li>
+                        <i class="ri-mail-line" aria-hidden="true"></i>
+                        <a href="#contact">Contact</a>
+                    </li>
+
+                    <li>
+                        <i class="ri-group-line" aria-hidden="true"></i>
+                        <a href="#aboutus">About us</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <ul class="header__socials">
+
+                <li>
+                    <a aria-label="Facebook" href="#facebook">
+                        <i aria-hidden="true" class="ri-facebook-fill"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a aria-label="X" href="#x">
+                        <i aria-hidden="true" class="ri-twitter-x-fill"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a aria-label="Instagram" href="#instagram">
+                        <i aria-hidden="true" class="ri-instagram-fill"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+            <button class="header__button" id="menu__button"><i class="ri-menu-line" aria-hidden="true"></i></button>
+        </div>
+    </header>
+
+    <!--  Hero  -->
+    <section class="hero">
+        <div class="hero__item">
+            <div class="hero__content">
+                <div class="hero__badge">
+                    <i class="ri-fire-fill" aria-hidden="true"></i>
+                    <span>Hot Recipe</span>
+                </div>
+                <div class="recipe-meta">
+                    <div class="recipe-meta__item">
+                        <i class="ri-timer-fill" aria-hidden="true"></i>
+                        <span>30 Minutes</span>
+                    </div>
+                    <div class="recipe-meta__item">
+                        <i class="ri-restaurant-2-fill" aria-hidden="true"></i>
+                        <span>Chicken</span>
+                    </div>
+                </div>
+                <h1 class="hero__title">Spicy Chicken Wings</h1>
+                <p class="hero__description">Crispy, juicy and packed with smoky heat.</p>
+
+                <div class="hero__author">
+                    <div class="hero__author-info">
+                        <img src="assets/img/profile.png" alt="John Smith">
+                        <div class="hero__author-details">
+                            <span class="hero__author-name">John Smith</span>
+                            <span class="hero__author-date">Mar 15, 2025</span>
+                        </div>
+                    </div>
+                    <a class="hero__button" href="#recipe">
+                        <span>View recipe</span> <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="assets/img/hero.jpg" alt="Spicy delicious chicken wings">
+            </div>
+        </div>
+    </section>
+
+     <!--  Category  -->
+    <section class="categories">
+        <div class="categories__header">
+            <h2 class="categories__title">
+                Categories
+            </h2>
+            <a class="categories__button" href="#categories">
+                See All
+            </a>
+        </div>
+        <div class="categories__list">
+            <article class="category-card category-card__breakfast">
+                <div class="category-card__image">
+                    <img src="assets/img/riceball.png" alt=""
+                         class="category-card__img"/>
+                </div>
+
+                <h3 class="category-card__title">
+                    Breakfast
+                </h3>
+            </article>
+            <article class="category-card category-card__vegan">
+                <div class="category-card__image">
+                    <img src="assets/img/lettuce.png" alt=""
+                         class="category-card__img"/>
+                </div>
+
+                <h3 class="category-card__title">
+                    Vegan
+                </h3>
+            </article>
+            <article class="category-card category-card__meat">
+                <div class="category-card__image">
+                    <img src="assets/img/meat.png" alt=""
+                         class="category-card__img"/>
+                </div>
+
+                <h3 class="category-card__title">
+                    Meat
+                </h3>
+            </article>
+            <article class="category-card category-card__desert">
+                <div class="category-card__image">
+                    <img src="assets/img/cake.png" alt=""
+                         class="category-card__img"/>
+                </div>
+
+                <h3 class="category-card__title">
+                    Dessert
+                </h3>
+            </article>
+            <article class="category-card category-card__lunch">
+                <div class="category-card__image">
+                    <img src="assets/img/sandwich.png" alt=""
+                         class="category-card__img"/>
+                </div>
+
+                <h3 class="category-card__title">
+                    Lunch
+                </h3>
+            </article>
+            <article class="category-card category-card__chocolate">
+                <div class="category-card__image">
+                    <img src="assets/img/chocolate.png" alt=""
+                         class="category-card__img"/>
+                </div>
+
+                <h3 class="category-card__title">
+                    Chocolate
+                </h3>
+            </article>
+        </div>
+    </section>
+
+    <!--  Recipes  -->
+    <section class="recipes">
+        <div class="recipes__header">
+            <div class="recipe__header-content">
+                <h2 class="recipes__title">
+                    Simple <span>&amp;</span> Tasty Recipes For You
+                </h2>
+                <p class="recipes__description">
+                    Discover delicious recipes you can make every day.
+                </p>
+                <button class="recipes__button">
+                    Explore Recipes
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+            <div class="recipe__header-image">
+                <img src="assets/img/recipe-background.jpg" alt="">
+            </div>
+        </div>
+        <div class="recipes__list">
+            <article class="recipe-card">
+                <div class="recipe-card__image">
+                    <img src="assets/img/recipe1.jpg" alt="Big and Juicy Wagyu Beef Cheeseburger">
+
+                    <button class="recipe-card__favorite">
+                        <i class="ri-heart-line" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="recipe-card__content">
+                    <!--<div class="recipe-rating">
+                        <div class="recipe-rating__icons">
+                            <i class="ri-star-fill"></i>
+                        </div>
+
+                        <span>4.8</span>
+                    </div>-->
+                    <h3 class="recipe-card__title">Big and Juicy Wagyu Beef Cheeseburger</h3>
+
+                    <div class="recipe-meta">
+                        <div class="recipe-meta__item">
+                            <i class="ri-timer-fill" aria-hidden="true"></i>
+                            <span>30 Minutes</span>
+                        </div>
+                        <div class="recipe-meta__item">
+                            <i class="ri-restaurant-2-fill" aria-hidden="true"></i>
+                            <span>Chicken</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="recipe-card">
+                <div class="recipe-card__image">
+                    <img src="assets/img/recipe2.jpg" alt="Fresh Lime Roasted Salmon">
+
+                    <button class="recipe-card__favorite">
+                        <i class="ri-heart-line" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="recipe-card__content">
+                    <!--<div class="recipe-rating">
+                        <div class="recipe-rating__icons">
+                            <i class="ri-star-fill"></i>
+                        </div>
+
+                        <span>4.8</span>
+                    </div>-->
+                    <h3 class="recipe-card__title">Fresh Lime Roasted Salmon With Ginger Sauce</h3>
+                    
+
+                    <div class="recipe-meta">
+                        <div class="recipe-meta__item">
+                            <i class="ri-timer-fill" aria-hidden="true"></i>
+                            <span>30 Minutes</span>
+                        </div>
+                        <div class="recipe-meta__item">
+                            <i class="ri-restaurant-2-fill" aria-hidden="true"></i>
+                            <span>Chicken</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="recipe-card">
+                <div class="recipe-card__image">
+                    <img src="assets/img/recipe3.jpg" alt="Strawberry Oatmeal Pancake with Honey Syrup">
+
+                    <button class="recipe-card__favorite">
+                        <i class="ri-heart-line" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="recipe-card__content">
+                    
+                    <!--<div class="recipe-rating">
+                        <div class="recipe-rating__icons">
+                            <i class="ri-star-fill"></i>
+                        </div>
+
+                        <span>4.8</span>
+                    </div>-->
+                    <h3 class="recipe-card__title">Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                    
+
+                    <div class="recipe-meta">
+                        <div class="recipe-meta__item">
+                            <i class="ri-timer-fill" aria-hidden="true"></i>
+                            <span>30 Minutes</span>
+                        </div>
+                        <div class="recipe-meta__item">
+                            <i class="ri-restaurant-2-fill" aria-hidden="true"></i>
+                            <span>Chicken</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="recipe-card">
+                <div class="recipe-card__image">
+                    <img src="assets/img/recipe4.jpg" alt="Fresh and Healthy Mixed Mayonnaise Salad">
+
+                    <button class="recipe-card__favorite">
+                        <i class="ri-heart-line" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="recipe-card__content">
+                    <!--<div class="recipe-rating">
+                        <div class="recipe-rating__icons">
+                            <i class="ri-star-fill"></i>
+                        </div>
+
+                        <span>4.8</span>
+                    </div>-->
+                    <h3 class="recipe-card__title">Fresh and Healthy Mixed Mayonnaise Salad</h3>
+                    
+
+                    <div class="recipe-meta">
+                        <div class="recipe-meta__item">
+                            <i class="ri-timer-fill" aria-hidden="true"></i>
+                            <span>30 Minutes</span>
+                        </div>
+                        <div class="recipe-meta__item">
+                            <i class="ri-restaurant-2-fill" aria-hidden="true"></i>
+                            <span>Chicken</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="recipe-card">
+                <div class="recipe-card__image">
+                    <img src="assets/img/recipe5.jpg" alt="Chicken Meatballs with Cream Cheese">
+
+                    <button class="recipe-card__favorite">
+                        <i class="ri-heart-line" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="recipe-card__content">
+                    <!--<div class="recipe-rating">
+                        <div class="recipe-rating__icons">
+                            <i class="ri-star-fill"></i>
+                        </div>
+
+                        <span>4.8</span>
+                    </div>-->
+                    <h3 class="recipe-card__title">Chicken Meatballs with Cream Cheese</h3>
+                    
+
+                    <div class="recipe-meta">
+                        <div class="recipe-meta__item">
+                            <i class="ri-timer-fill" aria-hidden="true"></i>
+                            <span>30 Minutes</span>
+                        </div>
+                        <div class="recipe-meta__item">
+                            <i class="ri-restaurant-2-fill" aria-hidden="true"></i>
+                            <span>Chicken</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="recipe-card">
+                <div class="recipe-card__image">
+                    <img src="assets/img/recipe7.jpg" alt="Fruity Pancake with Orange & Blueberry">
+
+                    <button class="recipe-card__favorite">
+                        <i class="ri-heart-line" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="recipe-card__content">
+                    <!--<div class="recipe-rating">
+                        <div class="recipe-rating__icons">
+                            <i class="ri-star-fill"></i>
+                        </div>
+
+                        <span>4.8</span>
+                    </div>-->
+                    <h3 class="recipe-card__title">Fruity Pancake with Orange & Blueberry</h3>
+                    
+
+                    <div class="recipe-meta">
+                        <div class="recipe-meta__item">
+                            <i class="ri-timer-fill" aria-hidden="true"></i>
+                            <span>30 Minutes</span>
+                        </div>
+                        <div class="recipe-meta__item">
+                            <i class="ri-restaurant-2-fill" aria-hidden="true"></i>
+                            <span>Chicken</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="recipe-card">
+                <div class="recipe-card__image">
+                    <img src="assets/img/recipe8.jpg" alt="The Best Easy One Pot Chicken and Rice">
+
+                    <button class="recipe-card__favorite">
+                        <i class="ri-heart-line" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="recipe-card__content">
+                    <!--<div class="recipe-rating">
+                        <div class="recipe-rating__icons">
+                            <i class="ri-star-fill"></i>
+                        </div>
+
+                        <span>4.8</span>
+                    </div>-->
+                    <h3 class="recipe-card__title">The Best Easy One Pot Chicken and Rice</h3>
+                    
+
+                    <div class="recipe-meta">
+                        <div class="recipe-meta__item">
+                            <i class="ri-timer-fill" aria-hidden="true"></i>
+                            <span>30 Minutes</span>
+                        </div>
+                        <div class="recipe-meta__item">
+                            <i class="ri-restaurant-2-fill" aria-hidden="true"></i>
+                            <span>Chicken</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--  Offer  -->
+    <section class="offer">
+        <div class="offer__content">
+            <h3 class="offer__title">
+                Everyone can be a chef in their own kitchen
+            </h3>
+            <p class="offer__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquid laboriosam minus quidem! Asperiores cupiditate,
+                et necessitatibus numquam odit quam repellat!
+            </p>
+            <button class="offer__button">
+                Learn more
+            </button>
+        </div>
+        <div class="offer__image">
+            <img class="offer__img" src="assets/img/offer.png" alt="">
+            <img class="meat" src="assets/img/meat.png" alt="">
+            <img class="lettuce" src="assets/img/lettuce.png" alt="">
+            <img class="tomato" src="assets/img/tomato.png" alt="">
+            <img class="onion" src="assets/img/onion.png" alt="">
+        </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
