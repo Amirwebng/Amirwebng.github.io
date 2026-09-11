@@ -1,0 +1,413 @@
+<!--
+  Note: this is a portfolio demo. In a real build, each recipe would
+  have its own URL/slug (e.g. /recipes/health-japanese-fried-rice)
+  and this page would pull content dynamically. Here, all recipe
+  links intentionally point to this single static template.
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="Read the latest Foodieland articles — cooking guides, recipe roundups, and kitchen tips from our writers.">
+    <meta property="og:title" content="Blog & Article — Foodieland">
+    <meta property="og:description" content="Read the latest Foodieland articles — cooking guides, recipe roundups, and kitchen tips from our writers.">
+    <meta property="og:image" content="https://amirwebng.github.io/assets/img/blog-og.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://amirwebng.github.io/blog.html">
+    <link rel="canonical" href="https://amirwebng.github.io/blog.html">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog & Article — Foodieland">
+    <meta name="twitter:description" content="Read the latest Foodieland articles — cooking guides, recipe roundups, and kitchen tips from our writers.">
+    <meta name="twitter:image" content="https://amirwebng.github.io/assets/img/blog-og.webp">
+
+    <meta name="theme-color" content="#d73b0b">
+    <title>Blog & Article — Foodieland</title>
+
+    <link rel="icon" type="image/webp" href="assets/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+<!--  Header  -->
+<header class="header">
+    <div class="header__inner" id="header__inner">
+        <a class="logo" href="index.html">Foodie<span>land</span></a>
+
+        <nav class="header__nav" id="header__nav" aria-label="Main navigation"><!--visible-->
+
+            <ul class="header__menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="recipes.html">Recipes</a>
+                </li>
+
+                <li class="active">
+                    <a href="blog.html">Blog</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+                <li>
+                    <a class="about" href="about.html">About us</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <ul class="social_links">
+
+            <li>
+                <a aria-label="Facebook" href="#facebook">
+                    <i aria-hidden="true" class="ri-facebook-fill"></i>
+                </a>
+            </li>
+
+            <li>
+                <a aria-label="X" href="#x">
+                    <i aria-hidden="true" class="ri-twitter-x-fill"></i>
+                </a>
+            </li>
+
+            <li>
+                <a aria-label="Instagram" href="#instagram">
+                    <i aria-hidden="true" class="ri-instagram-line"></i>
+                </a>
+            </li>
+
+        </ul>
+
+        <button class="header__button" id="menu__button" aria-label="Toggle menu"><i class="ri-menu-line" aria-hidden="true"></i></button>
+    </div>
+</header>
+
+<main>
+    <!--  Blog Hero  -->
+    <section class="blog-hero">
+        <h1 class="blog-hero__title">Blog &amp; Article</h1>
+        <p class="blog-hero__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        </p>
+
+        <form class="blog-search" role="search" action="#" method="get">
+            <label for="blog-search-input" class="hidden">Search articles</label>
+            <input id="blog-search-input" class="blog-search__input" type="search" name="q" placeholder="Search article, news or recipe...">
+            <button class="blog-search__button" type="submit">Search</button>
+        </form>
+    </section>
+
+    <!--  Blog list + Sidebar  -->
+    <section class="blog-layout">
+        <ul class="blog-list">
+            <li>
+                <a class="blog-card" href="blog-single.html">
+                    <img loading="lazy" class="blog-card__image" src="assets/img/blog1.webp" alt="" width="400" height="300">
+                    <div class="blog-card__content">
+                        <h2 class="blog-card__title">Crochet Projects for Noodle Lovers</h2>
+                        <p class="blog-card__excerpt">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqut enim
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="blog-card" href="blog-single.html">
+                    <img loading="lazy" class="blog-card__image" src="assets/img/blog2.webp" alt="" width="400" height="300">
+                    <div class="blog-card__content">
+                        <h2 class="blog-card__title">10 Vegetarian Recipes To Eat This Month</h2>
+                        <p class="blog-card__excerpt">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqut enim
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="blog-card" href="blog-single.html">
+                    <img loading="lazy" class="blog-card__image" src="assets/img/blog3.webp" alt="" width="400" height="300">
+                    <div class="blog-card__content">
+                        <h2 class="blog-card__title">Full Guide to Becoming a Professional Chef</h2>
+                        <p class="blog-card__excerpt">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqut enim
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="blog-card" href="blog-single.html">
+                    <img loading="lazy" class="blog-card__image" src="assets/img/blog4.webp" alt="" width="400" height="300">
+                    <div class="blog-card__content">
+                        <h2 class="blog-card__title">Simple &amp; Delicious Vegetarian Lasagna</h2>
+                        <p class="blog-card__excerpt">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqut enim
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="blog-card" href="blog-single.html">
+                    <img loading="lazy" class="blog-card__image" src="assets/img/blog5.webp" alt="" width="400" height="300">
+                    <div class="blog-card__content">
+                        <h2 class="blog-card__title">Plantain and Pinto Stew with Aji Verde</h2>
+                        <p class="blog-card__excerpt">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqut enim
+                        </p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <aside class="sidebar" aria-labelledby="sidebar-title">
+            <h2 class="sidebar__title" id="sidebar-title">Tasty Recipes</h2>
+            <ul class="sidebar__list">
+                <li>
+                    <a class="sidebar__card" href="recipe-single.html">
+                        <img loading="lazy" src="assets/img/recipe5.webp" alt="" width="160" height="120">
+                        <div class="sidebar__card-content">
+                            <h3 class="sidebar__card-title">Chicken Meatballs with Cream Cheese</h3>
+                            <span class="sidebar__card-author">By Andreas Paula</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="sidebar__card" href="recipe-single.html">
+                        <img loading="lazy" src="assets/img/recipe8.webp" alt="" width="160" height="120">
+                        <div class="sidebar__card-content">
+                            <h3 class="sidebar__card-title">Traditional Bolognaise Ragu</h3>
+                            <span class="sidebar__card-author">By Andreas Paula</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="sidebar__card" href="recipe-single.html">
+                        <img loading="lazy" src="assets/img/recipe7.webp" alt="" width="160" height="120">
+                        <div class="sidebar__card-content">
+                            <h3 class="sidebar__card-title">Pork and Chive Chinese Dumplings</h3>
+                            <span class="sidebar__card-author">By Andreas Paula</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="sidebar__banner">
+                <p class="sidebar__banner-text">Don't forget to eat healthy food</p>
+                <img loading="lazy" src="assets/img/recipe3.webp" alt="" class="sidebar__banner-image" width="200" height="200">
+                <span class="sidebar__banner-url">www.foodieland.com</span>
+            </div>
+        </aside>
+    </section>
+
+    <!--  Pagination  -->
+    <nav class="pagination" aria-label="Blog pagination">
+        <ul class="pagination__list">
+            <li><button type="button" aria-label="Previous page"><i class="ri-arrow-left-s-line" aria-hidden="true"></i></button></li>
+            <li><a href="?page=1" class="active">1</a></li>
+            <li><a href="?page=2">2</a></li>
+            <li><a href="?page=3">3</a></li>
+            <li><a href="?page=4">4</a></li>
+            <li><a href="?page=5">5</a></li>
+            <li><span class="pagination__ellipsis" aria-hidden="true">…</span></li>
+            <li><button type="button" aria-label="Next page"><i class="ri-arrow-right-s-line" aria-hidden="true"></i></button></li>
+        </ul>
+    </nav>
+
+    <!--  Newsletter  -->
+    <section class="newsletter-wrapper">
+        <div class="newsletter">
+            <div class="newsletter__header">
+                <h2 class="newsletter__title">
+                    Deliciousness <br> to your inbox
+                </h2>
+                <p class="newsletter__description">
+                    Lorem ipsum dolor sit amet, consectetuipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliquet enim ad minim
+                </p>
+            </div>
+            <div class="newsletter__form">
+                <label for="newsletter-email" class="hidden">Email address</label>
+                <input id="newsletter-email" class="newsletter__form-input" type="email" placeholder="Your email address...">
+                <button class="newsletter__form-button" type="button">Subscribe</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<!--  Footer  -->
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__header">
+            <a class="logo" href="index.html">Foodie<span>land</span></a>
+
+            <p class="footer__description">
+                Delicious recipes, cooking tips, and kitchen inspiration
+                to make every meal <span>extraordinary</span>
+            </p>
+
+            <ul class="social_links">
+                <li>
+                    <a aria-label="Facebook" href="#facebook">
+                        <i aria-hidden="true" class="ri-facebook-fill"></i>
+                    </a>
+                </li>
+                <li>
+                    <a aria-label="X" href="#x">
+                        <i aria-hidden="true" class="ri-twitter-x-fill"></i>
+                    </a>
+                </li>
+                <li>
+                    <a aria-label="Instagram" href="#instagram">
+                        <i aria-hidden="true" class="ri-instagram-fill"></i>
+                    </a>
+                </li>
+                <li>
+                    <a aria-label="Whatsapp" href="#whatsapp">
+                        <i aria-hidden="true" class="ri-whatsapp-fill"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__links">
+            <div class="footer__explore">
+                <h3>Explore</h3>
+                <ul class="footer__links-list">
+                    <li>
+                        <a href="recipes.html">
+                            Recipes
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Categories">
+                            Categories
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="blog.html">
+                            Breakfast
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#About_us">
+                            About us
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__categories">
+                <h3>Categories</h3>
+                <ul class="footer__links-list">
+                    <li>
+                        <a href="recipes.html">
+                            Breakfast
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Categories">
+                            Lunch
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="blog.html">
+                            Dinner
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#About_us">
+                            Deserts
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Snacks
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__popular">
+                <h3>Popular Recipes</h3>
+                <ul class="footer__links-list">
+                    <li>
+                        <a href="recipes.html" class="footer__card">
+                            <img loading="lazy" class="footer__card-image" src="assets/img/recipe1.webp" alt="">
+                            <div class="footer__card-content">
+                                <h3 class="footer__card-title">Creamy Garlic Pasta</h3>
+                                <div class="footer__card-metas">
+                                    <i class="ri-alarm-line"></i>
+                                    <span>30 Minutes</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="recipes.html" class="footer__card">
+                            <img loading="lazy" class="footer__card-image" src="assets/img/recipe5.webp" alt="">
+                            <div class="footer__card-content">
+                                <h3 class="footer__card-title">Creamy Garlic Pasta</h3>
+                                <div class="footer__card-metas">
+                                    <i class="ri-alarm-line"></i>
+                                    <span>30 Minutes</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="recipes.html" class="footer__card">
+                            <img loading="lazy" class="footer__card-image" src="assets/img/recipe2.webp" alt="">
+                            <div class="footer__card-content">
+                                <h3 class="footer__card-title">Creamy Garlic Pasta</h3>
+                                <div class="footer__card-metas">
+                                    <i class="ri-alarm-line"></i>
+                                    <span>30 Minutes</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p>© 2026 Foodieland. All rights reserved.</p>
+        </div>
+    </div>
+
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
