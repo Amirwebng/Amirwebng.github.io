@@ -1,0 +1,258 @@
+{
+  "nav": {
+    "logo": "Foodie<span>land</span>",
+    "home": "Home",
+    "recipes": "Recipes",
+    "blog": "Blog",
+    "contact": "Contact",
+    "about": "About us"
+  },
+
+  "hero": {
+    "badge": "Hot Recipe",
+    "title": "Spicy Chicken <span>Wings</span>",
+    "desc": "Crispy, juicy and packed with smoky heat.",
+    "button": "View recipe"
+  },
+
+  "recipe-meta": {
+    "time": "30 Minutes",
+    "ing": "Chicken"
+  },
+
+  "author": {
+    "name": "John Smith",
+    "date": "Mar 15, 2025"
+  },
+
+  "cat": {
+    "title": "Categories",
+    "button": "See All",
+    "breakfast": "Breakfast",
+    "vegan": "Vegan",
+    "meat": "Meat",
+    "dessert": "Dessert",
+    "lunch": "Lunch",
+    "chocolate": "Chocolate"
+  },
+
+  "recipes": {
+    "title": "Simple <span>&amp;</span> Tasty Recipes For You",
+    "description": "Discover delicious recipes you can make every day.",
+    "items": {
+      "wagyu": "Big and Juicy Wagyu Beef Cheeseburger",
+      "salmon": "Fresh Lime Roasted Salmon With Ginger Sauce",
+      "pancake": "Strawberry Oatmeal Pancake with Honey Syrup",
+      "salad": "Fresh and Healthy Mixed Mayonnaise Salad",
+      "meatballs": "Chicken Meatballs with Cream Cheese",
+      "fruityPancake": "Fruity Pancake with Orange & Blueberry",
+      "chickenRice": "The Best Easy One Pot Chicken and Rice"
+    }
+  },
+
+  "recipe": {
+    "favorite": "Add to favorites",
+    "time": "30 Minutes",
+    "category": "Chicken"
+  },
+
+  "offer": {
+    "title": "Everyone can be a chef in their own kitchen",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid laboriosam minus quidem! Asperiores cupiditate, et necessitatibus numquam odit quam repellat!",
+    "button": "Learn more"
+  },
+
+  "instagram": {
+    "title": "Checkout @amirwebng on Instagram",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid laboriosam minus quidem!",
+    "button": "View Our Instagram <i class=\"ri-instagram-line\"></i>"
+  },
+
+  "featuredRecipes": {
+    "title": "Try this delicious recipe <br> to make your day"
+  },
+
+  "newsletter": {
+    "title": "Deliciousness <br> to your newsletter",
+    "description": "Get fresh recipes, cooking inspiration, and delicious ideas delivered straight to your newsletter.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Your email address...",
+    "subscribe": "Subscribe",
+
+    "recipeTitle": "Deliciousness <br> to your inbox",
+    "recipeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam."
+  },
+
+  "footer": {
+    "logo": "Foodie<span>land</span>",
+    "description": "Delicious recipes, cooking tips, and kitchen inspiration to make every meal <span>extraordinary</span>",
+    "explore": {
+      "title": "Explore",
+      "recipes": "Recipes <i class=\"ri-arrow-right-s-line\"></i>",
+      "categories": "Categories <i class=\"ri-arrow-right-s-line\"></i>",
+      "breakfast": "Breakfast <i class=\"ri-arrow-right-s-line\"></i>",
+      "about": "About us <i class=\"ri-arrow-right-s-line\"></i>",
+      "contact": "Contact <i class=\"ri-arrow-right-s-line\"></i>"
+    },
+    "categories": {
+      "title": "Categories",
+      "breakfast": "Breakfast <i class=\"ri-arrow-right-s-line\"></i>",
+      "lunch": "Lunch <i class=\"ri-arrow-right-s-line\"></i>",
+      "dinner": "Dinner <i class=\"ri-arrow-right-s-line\"></i>",
+      "desserts": "Desserts <i class=\"ri-arrow-right-s-line\"></i>",
+      "snacks": "Snacks <i class=\"ri-arrow-right-s-line\"></i>"
+    },
+    "popular": {
+      "title": "Popular Recipes",
+      "recipe1": "Creamy Garlic Pasta",
+      "recipe2": "Creamy Garlic Pasta",
+      "recipe3": "Creamy Garlic Pasta"
+    },
+    "copyright": "© 2026 Foodieland. All rights reserved."
+  },
+
+  "images": {
+    "japaneseRice": "Overhead view of Japanese fried rice with a soft-boiled egg, served on a green plate"
+  },
+
+  "recipePage": {
+    "title": "Health Japanese Fried Rice",
+    "print": "<i class=\"ri-printer-line\" aria-hidden=\"true\"></i><span>Print</span>",
+    "share": "<i class=\"ri-share-line\" aria-hidden=\"true\"></i><span>Share</span>",
+    "prepTime": "Prep time",
+    "cookTime": "Cook time",
+    "minutes15": "15 Minutes",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+
+  "nutrition": {
+    "title": "Nutrition Information",
+    "calories": "Calories",
+    "totalFat": "Total Fat",
+    "protein": "Protein",
+    "carbohydrate": "Carbohydrate",
+    "cholesterol": "Cholesterol",
+    "note": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+
+  "ingredients": {
+    "title": "Ingredients",
+    "mainDish": "For main dish",
+    "sauce": "For the sauce",
+    "placeholder": "Lorem ipsum dolor sit amet"
+  },
+
+  "sidebar": {
+    "title": "Other Recipe",
+    "recipe2": "The Creamiest Creamy Chicken an...",
+    "author": "By Andreas Paula",
+    "banner": "Don't forget to eat healthy food"
+  },
+
+  "directions": {
+    "title": "Directions",
+    "stepTitle": "Lorem ipsum dolor sit amet",
+    "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+  },
+
+  "related": {
+    "title": "You may like these recipe too"
+  },
+  "recipesPage": {
+    "title": "All Recipes"
+  },
+
+  "pagination": {
+    "label": "Recipe pagination",
+    "previous": "<i class=\"ri-arrow-left-s-line\" aria-hidden=\"true\"></i>",
+    "next": "<i class=\"ri-arrow-right-s-line\" aria-hidden=\"true\"></i>"
+  },
+
+  "contact": {
+    "title": "Contact us",
+    "imageAlt": "Smiling chef in uniform giving a thumbs up",
+    "name": "Name",
+    "namePlaceholder": "Enter your name...",
+    "email": "Email address",
+    "emailPlaceholder": "Your email address...",
+    "subject": "Subject",
+    "subjectPlaceholder": "Enter subject...",
+    "enquiryType": "Enquiry type",
+    "enquiry": {
+      "advertising": "Advertising",
+      "general": "General enquiry",
+      "feedback": "Feedback",
+      "support": "Support"
+    },
+    "message": "Messages",
+    "messagePlaceholder": "Enter your messages...",
+    "submit": "Submit"
+  },
+  "blog": {
+    "title": "Blog &amp; Article",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+    "searchLabel": "Search articles",
+    "searchPlaceholder": "Search article, news or recipe...",
+    "searchButton": "Search",
+
+    "items": {
+      "noodle": {
+        "title": "Crochet Projects for Noodle Lovers",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+        "alt": "Crochet Projects for Noodle Lovers"
+      },
+      "vegetarian": {
+        "title": "10 Vegetarian Recipes To Eat This Month",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+        "alt": "10 Vegetarian Recipes To Eat This Month"
+      },
+      "chef": {
+        "title": "Full Guide to Becoming a Professional Chef",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+        "alt": "Full Guide to Becoming a Professional Chef"
+      },
+      "lasagna": {
+        "title": "Simple &amp; Delicious Vegetarian Lasagna",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+        "alt": "Simple & Delicious Vegetarian Lasagna"
+      },
+      "stew": {
+        "title": "Plantain and Pinto Stew with Aji Verde",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+        "alt": "Plantain and Pinto Stew with Aji Verde"
+      }
+    }
+  },
+
+  "sidebar": {
+    "blog": {
+      "title": "Tasty Recipes",
+      "author": "By Andreas Paula",
+      "recipe2": "Traditional Bolognaise Ragu",
+      "recipe3": "Pork and Chive Chinese Dumplings",
+      "banner": "Don't forget to eat healthy food",
+      "bannerImageAlt": "Healthy food",
+      "url": "www.foodieland.com"
+    }
+  },
+
+  "article": {
+    "title": "Full Guide to Becoming a Professional Chef",
+    "author": "John Smith",
+    "date": "15 March 2022",
+    "heroImageAlt": "A chef flambéing a dish over an open flame in a professional kitchen",
+    "question1": "How did you start out in the food industry?",
+    "question2": "What do you like most about your job?",
+    "question3": "Do you cook at home on your days off?",
+    "question4": "What would your advice be to young people looking to get their foot in the door?",
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+    "question5": "What is the biggest misconception that people have about being a professional chef?"
+  },
+
+  "share": {
+    "title": "Share this on:",
+    "facebook": "Share on Facebook",
+    "x": "Share on X",
+    "instagram": "Share on Instagram"
+  }
+}
